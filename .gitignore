@@ -1,0 +1,14 @@
+*.bin
+*.h5
+*.msgpack
+*.safetensors
+*.onnx
+*.ot
+*.pth
+*.pt
+AI-ModelScope/
+checkpoints/
+data/
+datasets/
+__pycache__/
+.ssh_backup/
