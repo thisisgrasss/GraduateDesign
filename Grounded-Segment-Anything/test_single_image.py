@@ -58,7 +58,7 @@ CONFIG = {
     
     # 提示词配置
     "det_prompt": "fan",  # 检测提示词（用于 Grounding DINO）
-    "inpaint_prompt": "cartoon character, vibrant colors, high quality, detailed, bag",  # 修复提示词（用于 Stable Diffusion）
+    "inpaint_prompt": "cartoon style, vibrant colors, high quality, detailed, Handbag standing upright",  # 修复提示词（用于 Stable Diffusion）
     
     # 输出配置
     "output_dir": "single_test_output",
@@ -70,6 +70,8 @@ CONFIG = {
     
     # 评价指标配置
     "enable_metrics": True,    # 是否计算评价指标
+
+    "bert_base_path": "/root/autodl-tmp/Grounded_sam/bert-base-uncased", 
 }
 
 # ==================== 评价指标类 ====================

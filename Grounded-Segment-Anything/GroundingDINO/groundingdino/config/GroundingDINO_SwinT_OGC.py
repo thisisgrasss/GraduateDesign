@@ -41,3 +41,5 @@ text_dropout = 0.0
 fusion_dropout = 0.0
 fusion_droppath = 0.1
 sub_sentence_present = True
+
+bert_base_uncased_path = "/root/autodl-tmp/Grounded_sam/bert-base-uncased"

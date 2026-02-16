@@ -1,0 +1,238 @@
+{
+  "AmericanComic/cartoon/1.jpg": {
+    "det_prompt": "fan",
+    "inpaint_prompt": "handbag, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试1(将风扇变为手提包)"
+  },
+  "AmericanComic/cartoon/2.jpg": {
+    "det_prompt": "speech bubble",
+    "inpaint_prompt": "cartoon background, clean comic style, no text, seamless, high quality",
+    "description": "美式卡通角色测试2(移除对话框)"
+  },
+  "AmericanComic/cartoon/3.jpg": {
+    "det_prompt": "rabbit",
+    "inpaint_prompt": "dog, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试3(兔子变狗)"
+  },
+  "AmericanComic/cartoon/4.jpg": {
+    "det_prompt": "mouse",
+    "inpaint_prompt": "rabbit, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试4(老鼠变兔子)"
+  },
+  "AmericanComic/cartoon/5.jpg": {
+    "det_prompt": "bow-knot",
+    "inpaint_prompt": "pink star, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试5(蝴蝶结变星星)"
+  },
+  "AmericanComic/cartoon/6.jpg": {
+    "det_prompt": "speech bubble",
+    "inpaint_prompt": "cartoon background, clean comic style, no text, seamless, high quality",
+    "description": "美式卡通角色测试6(移除对话框)"
+  },
+  "AmericanComic/cartoon/7.jpg": {
+    "det_prompt": "Characters embracing",
+    "inpaint_prompt": "one character only, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试7(拥抱的角色变为一个角色)"
+  },
+  "AmericanComic/cartoon/8.jpg": {
+    "det_prompt": "playing cards",
+    "inpaint_prompt": "water cup, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试8(扑克牌变水杯)"
+  },
+  "AmericanComic/cartoon/9.jpg": {
+    "det_prompt": "wallet",
+    "inpaint_prompt": "phone, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试9(钱包变手机)"
+  },
+  "AmericanComic/cartoon/10.jpg": {
+    "det_prompt": "bargaining chips",
+    "inpaint_prompt": "pencil, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试10(筹码变铅笔)"
+  },
+  "AmericanComic/cartoon/11.jpg": {
+    "det_prompt": "dog",
+    "inpaint_prompt": "cat, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试11(狗变猫)"
+  },
+  "AmericanComic/cartoon/12.jpg": {
+    "det_prompt": "plate",
+    "inpaint_prompt": "bowl, cartoon style, vibrant colors, high quality, detailed",
+    "description": "美式卡通角色测试12(盘子变碗)"
+  },
+
+
+
+  
+  "AmericanComic/Marvel/1.jpg": {
+    "det_prompt": "Pointed hat",
+    "inpaint_prompt": "cylindrical hat, superhero, Marvel style, detailed, high quality",
+    "description": "漫威超级英雄测试1(尖顶帽变圆柱帽)"
+  },
+  "AmericanComic/Marvel/2.jpg": {
+    "det_prompt": "crown",
+    "inpaint_prompt": "wreath, superhero, Marvel style, detailed, high quality",
+    "description": "漫威超级英雄测试2(皇冠变花环)"
+  },
+  "AmericanComic/Marvel/3.jpg": {
+    "det_prompt": "can",
+    "inpaint_prompt": "bottle, superhero, Marvel style, detailed, high quality",
+    "description": "漫威超级英雄测试3(罐子变瓶子)"
+  },
+  "AmericanComic/Marvel/4.jpg": {
+    "det_prompt": "bat",
+    "inpaint_prompt": "eagle, superhero, Marvel style, detailed, high quality",
+    "description": "漫威超级英雄测试4(蝙蝠变鹰)"
+  },
+  "AmericanComic/Marvel/5.jpg": {
+    "det_prompt": "paper",
+    "inpaint_prompt": "notebook, superhero, Marvel style, detailed, high quality",
+    "description": "漫威超级英雄测试5(纸变笔记本)"
+  },
+  "AmericanComic/Marvel/6.jpg": {
+    "det_prompt": "human",
+    "inpaint_prompt": "comic book background, Marvel style, clean artwork, no text, detailed",
+    "description": "漫威超级英雄测试6(移除任务角色，保留漫画背景)"
+  },
+  "AmericanComic/Marvel/7.jpg": {
+    "det_prompt": "speech bubble",
+    "inpaint_prompt": "comic book background, Marvel style, clean artwork, no text, detailed",
+    "description": "漫威超级英雄测试7(移除对话框，保留漫画背景)"
+  },
+  "AmericanComic/Marvel/8.jpg": {
+    "det_prompt": "Spherical chandelier",
+    "inpaint_prompt": "Crystal chandelier, superhero, Marvel style, detailed, high quality",
+    "description": "漫威超级英雄测试8(球形吊灯变水晶吊灯)"
+  },
+  "AmericanComic/Marvel/9.jpg": {
+    "det_prompt": "People wearing security guard uniforms",
+    "inpaint_prompt": "comic book background, Marvel style, clean artwork, no text, detailed",
+    "description": "漫威超级英雄测试9(移除穿保安制服的人，保留漫画背景)"
+  },
+  "AmericanComic/Marvel/10.jpg": {
+    "det_prompt": "speech bubble",
+    "inpaint_prompt": "comic book background, Marvel style, clean artwork, no text, detailed",
+    "description": "漫威超级英雄测试10(移除对话框，保留漫画背景)"
+  },
+  "AmericanComic/Marvel/11.jpg": {
+    "det_prompt": "Red cloak",
+    "inpaint_prompt": "black cloak, superhero, Marvel style, detailed, high quality",
+    "description": "漫威超级英雄测试11(红斗篷变黑斗篷)"
+  },
+  "AmericanComic/Marvel/12.jpg": {
+    "det_prompt": "street lamp pole",
+    "inpaint_prompt": "comic book background, Marvel style, clean artwork, no text, detailed",
+    "description": "漫威超级英雄测试12(移除街灯杆，保留漫画背景)"
+  },
+  "AmericanComic/Marvel/13.jpg": {
+    "det_prompt": "words",
+    "inpaint_prompt": "comic book background, Marvel style, clean artwork, no text, detailed",
+    "description": "漫威超级英雄测试13(移除文字，保留漫画背景)"
+  },
+
+
+
+
+
+  
+  "Chinese/classical/1.jpg": {
+    "det_prompt": "lantern",
+    "inpaint_prompt": "curtain, Chinese classical style, traditional, elegant, detailed, artistic, liner painting",
+    "description": "中国古典风格测试1(灯笼变窗帘)"
+  },
+  "Chinese/classical/2.jpg": {
+    "det_prompt": "wooden barrel",
+    "inpaint_prompt": "small seat, Chinese classical style, traditional, elegant, detailed, artistic, liner painting",
+    "description": "中国古典风格测试2(木桶变小凳子)"
+  },
+  "Chinese/classical/3.jpg": {
+    "det_prompt": "person",
+    "inpaint_prompt": "Chinese classical painting background, traditional art, no text, elegant,clean",
+    "description": "中国古典风格测试3(移除人物，保留中国古典风格背景)"
+  },
+  "Chinese/classical/4.jpg": {
+    "det_prompt": "curtain",
+    "inpaint_prompt": "lantern, Chinese classical style, traditional, elegant, detailed, artistic, liner painting",
+    "description": "中国古典风格测试4(窗帘变灯笼)"
+  },
+  "Chinese/classical/5.jpg": {
+    "det_prompt": "chandelier",
+    "inpaint_prompt": "Chinese classical painting background, traditional art, no text, elegant,clean",
+    "description": "中国古典风格测试5(移除吊灯，保留中国古典风格背景)"
+  },
+
+
+
+
+
+  
+  "Japanese/1.jpg": {
+    "det_prompt": "umbrella",
+    "inpaint_prompt": "handbag, anime style, Japanese illustration, high quality, detailed",
+    "description": "日本动漫风格测试1(雨伞变手提包)"
+  },
+  "Japanese/2.jpg": {
+    "det_prompt": "building",
+    "inpaint_prompt": "grassland, anime style, Japanese illustration, high quality, detailed",
+    "description": "日本动漫风格测试2(建筑变草地)"
+  },
+  "Japanese/3.jpg": {
+    "det_prompt": "speech bubble",
+    "inpaint_prompt": "manga background, anime style, clean lineart, no text, detailed",
+    "description": "日本动漫风格测试3(移除对话框，保留漫画背景)"
+  },
+  "Japanese/4.jpg": {
+    "det_prompt": "speech bubble",
+    "inpaint_prompt": "manga background, anime style, clean lineart, no text, detailed",
+    "description": "日本动漫风格测试4(移除对话框，保留漫画背景)"
+  },
+  "Japanese/5.jpg": {
+    "det_prompt": "flower",
+    "inpaint_prompt": "star, anime style, Japanese illustration, high quality, detailed",
+    "description": "日本动漫风格测试5(花变星星)"
+  },
+  "Japanese/6.jpg": {
+    "det_prompt": "speech bubble and text",
+    "inpaint_prompt": "manga background, anime style, clean lineart, no text, detailed",
+    "description": "日本动漫风格测试6(移除对话框和文字，保留漫画背景)"
+  },
+  "Japanese/7.jpg": {
+    "det_prompt": "speech bubble and text",
+    "inpaint_prompt": "manga background, anime style, clean lineart, no text, detailed",
+    "description": "日本动漫风格测试7(移除对话框和文字，保留漫画背景)"
+  },
+  "Japanese/8.jpg": {
+    "det_prompt": "plane",
+    "inpaint_prompt": "bird, anime style, Japanese illustration, high quality, detailed",
+    "description": "日本动漫风格测试8(飞机变鸟)"
+  },
+  "Japanese/9.jpg": {
+    "det_prompt": "speech bubble and text",
+    "inpaint_prompt": "manga background, anime style, clean lineart, no text, detailed",
+    "description": "日本动漫风格测试9(移除对话框和文字，保留漫画背景)"
+  },
+  "Japanese/10.jpg": {
+    "det_prompt": "bamboo basket",
+    "inpaint_prompt": "schoolbag, anime style, Japanese illustration, high quality, detailed",
+    "description": "日本动漫风格测试10(竹篮变书包)"
+  },
+  "Japanese/11.jpg": {
+    "det_prompt": "trunk",
+    "inpaint_prompt": "underbrush, anime style, Japanese illustration, high quality, detailed",
+    "description": "日本动漫风格测试11(树干变灌木)"
+  },
+  "Japanese/12.jpg": {
+    "det_prompt": "speech bubble and text",
+    "inpaint_prompt": "manga background, anime style, clean lineart, no text, detailed",
+    "description": "日本动漫风格测试12(移除对话框和文字，保留漫画背景)"
+  },
+    "Japanese/13.jpg": {
+    "det_prompt": "girl",
+    "inpaint_prompt": "old man, anime style, Japanese illustration, high quality, detailed",
+    "description": "日本动漫风格测试13(女孩变老人)"
+  },
+  "Japanese/14.jpg": {
+    "det_prompt": "human",
+    "inpaint_prompt": "anime background, cel-shaded, vibrant colors, no text, no speech bubble, clean lineart, detailed",
+    "description": "日本动漫风格测试14(移除人物，保留动漫风格背景)"
+  }
+}
