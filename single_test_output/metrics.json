@@ -2,14 +2,18 @@
   "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/1.jpg",
   "det_prompt": "fan",
   "inpaint_prompt": "cartoon style, vibrant colors, high quality, detailed, Handbag standing upright",
+  "inpaint_model": "stabilityai/stable-diffusion-2-inpainting",
+  "inpaint_steps": 50,
+  "inpaint_guidance_scale": 7.5,
+  "inpaint_strength": 0.99,
   "detected_objects": 1,
   "detected_labels": [
     "fan(0.68)"
   ],
   "metrics": {
-    "PSNR": 17.89,
-    "SSIM": 0.6211,
-    "LPIPS": 0.1038,
-    "CLIP_Score": 16.86
+    "PSNR": 21.88,
+    "SSIM": 0.801,
+    "LPIPS": 0.0456,
+    "CLIP_Score": 15.96
   }
 }
