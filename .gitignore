@@ -12,3 +12,4 @@ data/
 datasets/
 __pycache__/
 .ssh_backup/
+*.jpg
