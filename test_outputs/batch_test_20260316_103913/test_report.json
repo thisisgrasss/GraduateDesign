@@ -1,0 +1,1144 @@
+{
+  "timestamp": "20260316_103913",
+  "version": "v3",
+  "sd_model": "/root/autodl-tmp/models/sdxl-inpainting",
+  "inpaint_steps": 50,
+  "inpaint_guidance_scale": 7.5,
+  "inpaint_strength": 0.99,
+  "nms_iou_threshold": 0.5,
+  "dsp_mask_enabled": true,
+  "dsp_enhance_enabled": false,
+  "controlnet_enabled": false,
+  "lap_blend_enabled": true,
+  "convex_hull_enabled": true,
+  "two_stage_enabled": false,
+  "color_match_enabled": true,
+  "controlnet_mask_shield": true,
+  "default_task_type": "object_removal",
+  "total_tests": 44,
+  "results": [
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/1.jpg",
+      "description": "美式卡通角色测试1(将风扇变为手提包)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/1",
+      "detected_objects": 1,
+      "detected_labels": [
+        "fan(0.68)"
+      ],
+      "metrics": {
+        "PSNR": 27.13,
+        "SSIM": 0.9794,
+        "LPIPS": 0.0187,
+        "CLIP_Score": 14.13,
+        "weighted_score": 66.11,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/2.jpg",
+      "description": "美式卡通角色测试2(移除对话框)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/2",
+      "detected_objects": 1,
+      "detected_labels": [
+        "speech bubble(0.53)"
+      ],
+      "metrics": {
+        "PSNR": 9.95,
+        "SSIM": 0.1968,
+        "LPIPS": 0.7476,
+        "CLIP_Score": 19.26,
+        "weighted_score": 21.76,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/3.jpg",
+      "description": "美式卡通角色测试3(兔子变狗)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/3",
+      "detected_objects": 3,
+      "detected_labels": [
+        "rabbit(0.33)",
+        "rabbit(0.31)",
+        "rabbit(0.31)"
+      ],
+      "metrics": {
+        "PSNR": 22.47,
+        "SSIM": 0.9572,
+        "LPIPS": 0.0336,
+        "CLIP_Score": 11.66,
+        "weighted_score": 62.24,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "warning",
+      "message": "未检测到任何目标",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/4.jpg",
+      "description": "美式卡通角色测试4(老鼠变兔子)"
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/5.jpg",
+      "description": "美式卡通角色测试5(蝴蝶结变星星)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/5",
+      "detected_objects": 1,
+      "detected_labels": [
+        "bow - knot(0.35)"
+      ],
+      "metrics": {
+        "PSNR": 20.41,
+        "SSIM": 0.8947,
+        "LPIPS": 0.1018,
+        "CLIP_Score": 11.05,
+        "weighted_score": 57.79,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/6.jpg",
+      "description": "美式卡通角色测试6(移除对话框)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/6",
+      "detected_objects": 2,
+      "detected_labels": [
+        "speech bubble(0.40)",
+        "speech bubble(0.32)"
+      ],
+      "metrics": {
+        "PSNR": 10.97,
+        "SSIM": 0.0962,
+        "LPIPS": 0.7061,
+        "CLIP_Score": 18.61,
+        "weighted_score": 22.36,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/7.jpg",
+      "description": "美式卡通角色测试7(拥抱的角色变为一个角色)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/7",
+      "detected_objects": 4,
+      "detected_labels": [
+        "characters(0.43)",
+        "characters(0.41)",
+        "characters(0.32)",
+        "characters(0.32)"
+      ],
+      "metrics": {
+        "PSNR": 17.31,
+        "SSIM": 0.7981,
+        "LPIPS": 0.1544,
+        "CLIP_Score": 14.47,
+        "weighted_score": 53.37,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/8.jpg",
+      "description": "美式卡通角色测试8(扑克牌变水杯)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/8",
+      "detected_objects": 2,
+      "detected_labels": [
+        "playing cards(0.59)",
+        "playing cards(0.32)"
+      ],
+      "metrics": {
+        "PSNR": 10.68,
+        "SSIM": 0.2888,
+        "LPIPS": 0.7164,
+        "CLIP_Score": 37.81,
+        "weighted_score": 29.11,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "warning",
+      "message": "未检测到任何目标",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/9.jpg",
+      "description": "美式卡通角色测试9(钱包变手机)"
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/10.jpg",
+      "description": "美式卡通角色测试10(筹码变铅笔)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/10",
+      "detected_objects": 3,
+      "detected_labels": [
+        "bargaining chips(0.42)",
+        "bargaining chips(0.33)",
+        "bargaining chips(0.30)"
+      ],
+      "metrics": {
+        "PSNR": 28.29,
+        "SSIM": 0.9715,
+        "LPIPS": 0.0277,
+        "CLIP_Score": 10.48,
+        "weighted_score": 65.36,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/11.jpg",
+      "description": "美式卡通角色测试11(狗变猫)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/11",
+      "detected_objects": 1,
+      "detected_labels": [
+        "dog(0.43)"
+      ],
+      "metrics": {
+        "PSNR": 26.52,
+        "SSIM": 0.9515,
+        "LPIPS": 0.046,
+        "CLIP_Score": 13.01,
+        "weighted_score": 64.15,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/cartoon/12.jpg",
+      "description": "美式卡通角色测试12(盘子变碗)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/cartoon/12",
+      "detected_objects": 8,
+      "detected_labels": [
+        "plate(0.62)",
+        "plate(0.59)",
+        "plate(0.58)",
+        "plate(0.57)",
+        "plate(0.56)",
+        "plate(0.55)",
+        "plate(0.44)",
+        "plate(0.38)"
+      ],
+      "metrics": {
+        "PSNR": 33.15,
+        "SSIM": 0.9894,
+        "LPIPS": 0.0067,
+        "CLIP_Score": 13.23,
+        "weighted_score": 69.45,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/1.jpg",
+      "description": "漫威超级英雄测试1(尖顶帽变圆柱帽)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/1",
+      "detected_objects": 1,
+      "detected_labels": [
+        "hat(0.71)"
+      ],
+      "metrics": {
+        "PSNR": 22.97,
+        "SSIM": 0.9358,
+        "LPIPS": 0.0645,
+        "CLIP_Score": 14.69,
+        "weighted_score": 61.94,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/2.jpg",
+      "description": "漫威超级英雄测试2(皇冠变花环)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/2",
+      "detected_objects": 2,
+      "detected_labels": [
+        "crown(0.77)",
+        "crown(0.32)"
+      ],
+      "metrics": {
+        "PSNR": 19.96,
+        "SSIM": 0.9569,
+        "LPIPS": 0.065,
+        "CLIP_Score": 13.9,
+        "weighted_score": 60.75,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/3.jpg",
+      "description": "漫威超级英雄测试3(罐子变瓶子)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/3",
+      "detected_objects": 3,
+      "detected_labels": [
+        "can(0.33)",
+        "can(0.33)",
+        "can(0.32)"
+      ],
+      "metrics": {
+        "PSNR": 39.74,
+        "SSIM": 0.9975,
+        "LPIPS": 0.0049,
+        "CLIP_Score": 14.6,
+        "weighted_score": 73.33,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "warning",
+      "message": "未检测到任何目标",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/4.jpg",
+      "description": "漫威超级英雄测试4(蝙蝠变鹰)"
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/5.jpg",
+      "description": "漫威超级英雄测试5(纸变笔记本)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/5",
+      "detected_objects": 1,
+      "detected_labels": [
+        "paper(0.33)"
+      ],
+      "metrics": {
+        "PSNR": 24.92,
+        "SSIM": 0.9629,
+        "LPIPS": 0.0314,
+        "CLIP_Score": 19.78,
+        "weighted_score": 65.69,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/6.jpg",
+      "description": "漫威超级英雄测试6(移除任务角色，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/6",
+      "detected_objects": 1,
+      "detected_labels": [
+        "human(0.74)"
+      ],
+      "metrics": {
+        "PSNR": 18.5,
+        "SSIM": 0.8788,
+        "LPIPS": 0.0895,
+        "CLIP_Score": 22.05,
+        "weighted_score": 57.73,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/7.jpg",
+      "description": "漫威超级英雄测试7(移除对话框，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/7",
+      "detected_objects": 2,
+      "detected_labels": [
+        "speech bubble(0.32)",
+        "speech bubble(0.31)"
+      ],
+      "metrics": {
+        "PSNR": 33.78,
+        "SSIM": 0.9942,
+        "LPIPS": 0.0059,
+        "CLIP_Score": 21.73,
+        "weighted_score": 65.15,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/8.jpg",
+      "description": "漫威超级英雄测试8(球形吊灯变水晶吊灯)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/8",
+      "detected_objects": 3,
+      "detected_labels": [
+        "spherical chandelier(0.71)",
+        "spherical chandelier(0.52)",
+        "spherical chandelier(0.42)"
+      ],
+      "metrics": {
+        "PSNR": 27.83,
+        "SSIM": 0.9873,
+        "LPIPS": 0.0134,
+        "CLIP_Score": 22.13,
+        "weighted_score": 68.79,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/9.jpg",
+      "description": "漫威超级英雄测试9(移除穿保安制服的人，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/9",
+      "detected_objects": 6,
+      "detected_labels": [
+        "people(0.80)",
+        "people(0.79)",
+        "people(0.68)",
+        "people(0.60)",
+        "people(0.38)",
+        "people(0.30)"
+      ],
+      "metrics": {
+        "PSNR": 16.1,
+        "SSIM": 0.8476,
+        "LPIPS": 0.1488,
+        "CLIP_Score": 22.16,
+        "weighted_score": 54.61,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/10.jpg",
+      "description": "漫威超级英雄测试10(移除对话框，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/10",
+      "detected_objects": 1,
+      "detected_labels": [
+        "speech bubble(0.34)"
+      ],
+      "metrics": {
+        "PSNR": 9.72,
+        "SSIM": 0.1609,
+        "LPIPS": 0.6981,
+        "CLIP_Score": 21.76,
+        "weighted_score": 24.33,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/11.jpg",
+      "description": "漫威超级英雄测试11(红斗篷变黑斗篷)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/11",
+      "detected_objects": 3,
+      "detected_labels": [
+        "red cloak(0.62)",
+        "red cloak(0.36)",
+        "red cloak(0.31)"
+      ],
+      "metrics": {
+        "PSNR": 26.82,
+        "SSIM": 0.9677,
+        "LPIPS": 0.0338,
+        "CLIP_Score": 18.04,
+        "weighted_score": 66.27,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/12.jpg",
+      "description": "漫威超级英雄测试12(移除街灯杆，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/12",
+      "detected_objects": 1,
+      "detected_labels": [
+        "street lamp pole(0.52)"
+      ],
+      "metrics": {
+        "PSNR": 27.99,
+        "SSIM": 0.969,
+        "LPIPS": 0.0257,
+        "CLIP_Score": 16.33,
+        "weighted_score": 60.79,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/AmericanComic/Marvel/13.jpg",
+      "description": "漫威超级英雄测试13(移除文字，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Marvel/13",
+      "detected_objects": 2,
+      "detected_labels": [
+        "words(0.39)",
+        "words(0.36)"
+      ],
+      "metrics": {
+        "PSNR": 21.98,
+        "SSIM": 0.9483,
+        "LPIPS": 0.0559,
+        "CLIP_Score": 18.45,
+        "weighted_score": 59.02,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Chinese/classical/1.jpg",
+      "description": "中国古典风格测试1(灯笼变窗帘)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/classical/1",
+      "detected_objects": 1,
+      "detected_labels": [
+        "lantern(0.45)"
+      ],
+      "metrics": {
+        "PSNR": 23.78,
+        "SSIM": 0.9723,
+        "LPIPS": 0.0611,
+        "CLIP_Score": 23.22,
+        "weighted_score": 65.47,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Chinese/classical/2.jpg",
+      "description": "中国古典风格测试2(木桶变小凳子)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/classical/2",
+      "detected_objects": 1,
+      "detected_labels": [
+        "wooden barrel(0.92)"
+      ],
+      "metrics": {
+        "PSNR": 25.12,
+        "SSIM": 0.9706,
+        "LPIPS": 0.0244,
+        "CLIP_Score": 19.74,
+        "weighted_score": 66.15,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Chinese/classical/3.jpg",
+      "description": "中国古典风格测试3(移除人物，保留中国古典风格背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/classical/3",
+      "detected_objects": 2,
+      "detected_labels": [
+        "person(0.53)",
+        "person(0.31)"
+      ],
+      "metrics": {
+        "PSNR": 17.24,
+        "SSIM": 0.8707,
+        "LPIPS": 0.1464,
+        "CLIP_Score": 25.57,
+        "weighted_score": 56.53,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Chinese/classical/4.jpg",
+      "description": "中国古典风格测试4(窗帘变灯笼)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/classical/4",
+      "detected_objects": 2,
+      "detected_labels": [
+        "curtain(0.53)",
+        "curtain(0.53)"
+      ],
+      "metrics": {
+        "PSNR": 24.46,
+        "SSIM": 0.9659,
+        "LPIPS": 0.047,
+        "CLIP_Score": 23.68,
+        "weighted_score": 66.12,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Chinese/classical/5.jpg",
+      "description": "中国古典风格测试5(移除吊灯，保留中国古典风格背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/classical/5",
+      "detected_objects": 2,
+      "detected_labels": [
+        "chandelier(0.59)",
+        "chandelier(0.32)"
+      ],
+      "metrics": {
+        "PSNR": 21.02,
+        "SSIM": 0.9494,
+        "LPIPS": 0.0707,
+        "CLIP_Score": 24.56,
+        "weighted_score": 60.7,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/1.jpg",
+      "description": "日本动漫风格测试1(雨伞变手提包)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/1",
+      "detected_objects": 2,
+      "detected_labels": [
+        "umbrella(0.31)",
+        "umbrella(0.30)"
+      ],
+      "metrics": {
+        "PSNR": 32.39,
+        "SSIM": 0.9962,
+        "LPIPS": 0.0045,
+        "CLIP_Score": 20.68,
+        "weighted_score": 71.16,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/2.jpg",
+      "description": "日本动漫风格测试2(建筑变草地)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/2",
+      "detected_objects": 5,
+      "detected_labels": [
+        "building(0.49)",
+        "building(0.47)",
+        "building(0.47)",
+        "building(0.37)",
+        "building(0.33)"
+      ],
+      "metrics": {
+        "PSNR": 23.5,
+        "SSIM": 0.9666,
+        "LPIPS": 0.0245,
+        "CLIP_Score": 23.29,
+        "weighted_score": 66.12,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/3.jpg",
+      "description": "日本动漫风格测试3(移除对话框，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/3",
+      "detected_objects": 2,
+      "detected_labels": [
+        "speech bubble(0.62)",
+        "speech bubble(0.55)"
+      ],
+      "metrics": {
+        "PSNR": 22.42,
+        "SSIM": 0.9657,
+        "LPIPS": 0.0243,
+        "CLIP_Score": 22.95,
+        "weighted_score": 62.35,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/4.jpg",
+      "description": "日本动漫风格测试4(移除对话框，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/4",
+      "detected_objects": 2,
+      "detected_labels": [
+        "speech bubble(0.40)",
+        "speech bubble(0.36)"
+      ],
+      "metrics": {
+        "PSNR": 19.34,
+        "SSIM": 0.9576,
+        "LPIPS": 0.029,
+        "CLIP_Score": 24.55,
+        "weighted_score": 62.1,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/5.jpg",
+      "description": "日本动漫风格测试5(花变星星)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/5",
+      "detected_objects": 3,
+      "detected_labels": [
+        "flower(0.42)",
+        "flower(0.36)",
+        "flower(0.32)"
+      ],
+      "metrics": {
+        "PSNR": 29.37,
+        "SSIM": 0.9957,
+        "LPIPS": 0.006,
+        "CLIP_Score": 25.18,
+        "weighted_score": 70.72,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/6.jpg",
+      "description": "日本动漫风格测试6(移除对话框和文字，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/6",
+      "detected_objects": 3,
+      "detected_labels": [
+        "speech bubble(0.45)",
+        "text(0.35)",
+        "text(0.30)"
+      ],
+      "metrics": {
+        "PSNR": 30.67,
+        "SSIM": 0.9826,
+        "LPIPS": 0.0176,
+        "CLIP_Score": 25.08,
+        "weighted_score": 65.29,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/7.jpg",
+      "description": "日本动漫风格测试7(移除对话框和文字，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/7",
+      "detected_objects": 2,
+      "detected_labels": [
+        "speech bubble(0.39)",
+        "speech bubble(0.31)"
+      ],
+      "metrics": {
+        "PSNR": 22.49,
+        "SSIM": 0.977,
+        "LPIPS": 0.0277,
+        "CLIP_Score": 20.98,
+        "weighted_score": 61.55,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/8.jpg",
+      "description": "日本动漫风格测试8(飞机变鸟)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/8",
+      "detected_objects": 1,
+      "detected_labels": [
+        "plane(0.39)"
+      ],
+      "metrics": {
+        "PSNR": 12.42,
+        "SSIM": 0.7045,
+        "LPIPS": 0.2414,
+        "CLIP_Score": 25.18,
+        "weighted_score": 49.08,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/9.jpg",
+      "description": "日本动漫风格测试9(移除对话框和文字，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/9",
+      "detected_objects": 4,
+      "detected_labels": [
+        "speech bubble(0.45)",
+        "speech bubble(0.42)",
+        "text(0.38)",
+        "text(0.33)"
+      ],
+      "metrics": {
+        "PSNR": 21.01,
+        "SSIM": 0.9403,
+        "LPIPS": 0.0525,
+        "CLIP_Score": 25.4,
+        "weighted_score": 61.67,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/10.jpg",
+      "description": "日本动漫风格测试10(竹篮变书包)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/10",
+      "detected_objects": 1,
+      "detected_labels": [
+        "bamboo basket(0.89)"
+      ],
+      "metrics": {
+        "PSNR": 23.0,
+        "SSIM": 0.9727,
+        "LPIPS": 0.0275,
+        "CLIP_Score": 17.84,
+        "weighted_score": 64.59,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/11.jpg",
+      "description": "日本动漫风格测试11(树干变灌木)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/11",
+      "detected_objects": 2,
+      "detected_labels": [
+        "trunk(0.51)",
+        "trunk(0.34)"
+      ],
+      "metrics": {
+        "PSNR": 30.16,
+        "SSIM": 0.9929,
+        "LPIPS": 0.0066,
+        "CLIP_Score": 22.25,
+        "weighted_score": 70.3,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/12.jpg",
+      "description": "日本动漫风格测试12(移除对话框和文字，保留漫画背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/12",
+      "detected_objects": 1,
+      "detected_labels": [
+        "speech bubble(0.43)"
+      ],
+      "metrics": {
+        "PSNR": 7.83,
+        "SSIM": 0.1053,
+        "LPIPS": 0.6553,
+        "CLIP_Score": 31.22,
+        "weighted_score": 28.89,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/13.jpg",
+      "description": "日本动漫风格测试13(女孩变老人)",
+      "task_type": "object_replacement",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/13",
+      "detected_objects": 2,
+      "detected_labels": [
+        "girl(0.81)",
+        "girl(0.61)"
+      ],
+      "metrics": {
+        "PSNR": 18.76,
+        "SSIM": 0.9261,
+        "LPIPS": 0.0823,
+        "CLIP_Score": 23.34,
+        "weighted_score": 61.31,
+        "task_type": "object_replacement",
+        "weights_used": {
+          "PSNR": 0.25,
+          "SSIM": 0.25,
+          "LPIPS": 0.25,
+          "CLIP_Score": 0.25
+        }
+      }
+    },
+    {
+      "status": "success",
+      "image_path": "Grounded-Segment-Anything/dataset/Japanese/14.jpg",
+      "description": "日本动漫风格测试14(移除人物，保留动漫风格背景)",
+      "task_type": "object_removal",
+      "output_dir": "test_outputs/batch_test_20260316_103913/Japanese/14",
+      "detected_objects": 1,
+      "detected_labels": [
+        "human(0.57)"
+      ],
+      "metrics": {
+        "PSNR": 30.76,
+        "SSIM": 0.9943,
+        "LPIPS": 0.0087,
+        "CLIP_Score": 17.34,
+        "weighted_score": 62.68,
+        "task_type": "object_removal",
+        "weights_used": {
+          "PSNR": 0.1,
+          "SSIM": 0.1,
+          "LPIPS": 0.4,
+          "CLIP_Score": 0.4
+        }
+      }
+    }
+  ],
+  "summary": {
+    "success": 41,
+    "warning": 3,
+    "error": 0,
+    "average_metrics_by_task": {
+      "object_removal": {
+        "PSNR": 20.1,
+        "SSIM": 0.755,
+        "LPIPS": 0.2065,
+        "CLIP_Score": 22.24,
+        "weighted_score": 52.21,
+        "count": 17
+      },
+      "object_replacement": {
+        "PSNR": 24.63,
+        "SSIM": 0.9209,
+        "LPIPS": 0.0768,
+        "CLIP_Score": 18.89,
+        "weighted_score": 63.14,
+        "count": 24
+      }
+    },
+    "average_metrics": {
+      "PSNR": 22.75,
+      "SSIM": 0.8521,
+      "LPIPS": 0.1306,
+      "CLIP_Score": 20.28,
+      "weighted_score": 58.61
+    }
+  }
+}
