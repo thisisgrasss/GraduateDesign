@@ -1,0 +1,6 @@
+exp_id,group,name,task,PSNR,SSIM,LPIPS,CLIP_Score,weighted_score,n,skipped
+B00_sdxl,controlnet,SDXL Baseline,all,19.3659,0.7744,0.1639,21.281,55.2612,41,False
+B01_M2,controlnet,+M2 ControlNet,all,21.0078,0.8017,0.1188,20.7356,57.6002,41,False
+B02_M2M8,controlnet,+M2+M8 CN+MaskShield,all,19.6312,0.7753,0.1662,21.4427,55.2344,41,False
+B03_M2M8M1M3M4,controlnet,+M2+M8+M1+M3+M4,all,22.2861,0.8496,0.1419,21.3476,58.6273,41,False
+B04_M2M8M1M3M4M6,controlnet,+M2+M8+M1+M3+M4+M6,all,25.0454,0.883,0.0799,20.588,61.9761,41,False

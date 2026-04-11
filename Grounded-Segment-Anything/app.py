@@ -23,7 +23,7 @@ def detect_fn(image, det_prompt):
 
         mask = model.get_mask(input_path, det_prompt)
 
-        return image, mask
+        return mask
 
     except Exception as e:
         print("❌ detect 错误:", e)

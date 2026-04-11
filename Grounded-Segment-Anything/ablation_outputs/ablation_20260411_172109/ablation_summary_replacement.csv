@@ -1,0 +1,16 @@
+exp_id,group,name,task,PSNR,SSIM,LPIPS,CLIP_Score,weighted_score,n,skipped
+A00_baseline,incremental,Baseline (SD1.5 only),object_replacement,17.7779,0.706,0.1674,18.955,52.0921,27,False
+A01_M1,incremental,+M1 DSP Mask,object_replacement,17.8017,0.704,0.1658,19.1075,52.1333,27,False
+A02_M1M3,incremental,+M1+M3 DSP Enhance,object_replacement,17.8871,0.7074,0.1655,19.2071,52.2929,27,False
+A03_M1M3M4,incremental,+M1+M3+M4 LapBlend,object_replacement,23.8558,0.9174,0.0818,18.6775,62.4883,27,False
+A04_M1M3M4M5,incremental,+M1+M3+M4+M5 ConvexHull,object_replacement,24.1229,0.9189,0.082,18.1879,62.5308,27,False
+A08_full_no_cn,incremental,Full (no ControlNet),object_replacement,25.2042,0.9248,0.0689,18.6208,63.6542,27,False
+C00_full,leave_one_out,Full Model (all ON),object_replacement,25.1229,0.923,0.065,18.6679,63.6767,27,False
+C01_noM1,leave_one_out,Full - M1,object_replacement,24.8583,0.9208,0.069,18.545,63.3588,27,False
+C02_noM3,leave_one_out,Full - M3,object_replacement,25.2167,0.9259,0.0625,19.0196,63.9496,27,False
+C03_noM4,leave_one_out,Full - M4,object_replacement,17.2917,0.6598,0.194,17.9458,49.8654,27,False
+C05_noM6,leave_one_out,Full - M6,object_replacement,24.1137,0.9177,0.0843,18.4825,62.5137,27,False
+C08_noM10,leave_one_out,Full - M10 (SD1.5 fallback),object_replacement,25.2138,0.9244,0.0684,18.47,63.6254,27,False
+D04_sd15_full_nolama,key_combo,SD1.5 Full (no LaMa),object_replacement,25.3275,0.9116,0.0852,18.1521,62.9483,27,False
+D05_two_stage_only,key_combo,Two-Stage only,object_replacement,16.8242,0.6411,0.216,18.8604,48.8425,27,False
+D07_mask_chain,key_combo,Mask Chain (M1+M3+M5),object_replacement,17.8167,0.7062,0.1639,18.8133,52.1713,27,False

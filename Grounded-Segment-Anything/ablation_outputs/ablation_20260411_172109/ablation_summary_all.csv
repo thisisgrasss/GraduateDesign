@@ -1,0 +1,28 @@
+exp_id,group,name,task,PSNR,SSIM,LPIPS,CLIP_Score,weighted_score,n,skipped
+A00_baseline,incremental,Baseline (SD1.5 only),all,16.3056,0.6403,0.2291,21.1805,49.3188,41,False
+A01_M1,incremental,+M1 DSP Mask,all,16.3932,0.6425,0.2264,20.7705,49.26,41,False
+A02_M1M3,incremental,+M1+M3 DSP Enhance,all,16.3556,0.6416,0.2278,21.482,49.5051,41,False
+A03_M1M3M4,incremental,+M1+M3+M4 LapBlend,all,21.0878,0.8387,0.1489,20.7478,57.491,41,False
+A04_M1M3M4M5,incremental,+M1+M3+M4+M5 ConvexHull,all,20.7905,0.8164,0.1721,20.7602,56.4588,41,False
+A05_M1M3M4M5M7,incremental,+M1+M3+M4+M5+M7 RmPrompt,all,15.8206,0.6625,0.3311,22.2253,45.6071,17,False
+A06_M1M3M4M5M7M9,incremental,+M1+M3+M4+M5+M7+M9 ColorMatch,all,16.3,0.6945,0.3171,22.2424,46.4165,17,False
+A07_M1M3M4M5M7M9M10,incremental,+M1+M3+M4+M5+M7+M9+M10 LaMa,all,16.5088,0.6951,0.336,22.0112,45.6176,17,False
+A08_full_no_cn,incremental,Full (no ControlNet),all,21.5851,0.8289,0.1796,20.0571,56.1793,41,False
+C00_full,leave_one_out,Full Model (all ON),all,21.5376,0.8279,0.1774,20.0846,56.1924,41,False
+C01_noM1,leave_one_out,Full - M1,all,21.4398,0.8357,0.1482,19.6612,57.2302,41,False
+C02_noM3,leave_one_out,Full - M3,all,21.6366,0.8292,0.1739,20.2302,56.4107,41,False
+C03_noM4,leave_one_out,Full - M4,all,16.309,0.6588,0.272,19.7854,47.1134,41,False
+C04_noM5,leave_one_out,Full - M5,all,16.5965,0.7154,0.2609,20.7882,48.3512,17,False
+C05_noM6,leave_one_out,Full - M6,all,20.9468,0.8248,0.1886,19.9761,55.5117,41,False
+C06_noM7,leave_one_out,Full - M7,all,16.4759,0.6937,0.336,23.4229,46.1635,17,False
+C07_noM9,leave_one_out,Full - M9,all,16.04,0.6908,0.3546,22.1353,44.8082,17,False
+C08_noM10,leave_one_out,Full - M10 (SD1.5 fallback),all,22.0771,0.8336,0.1475,20.0417,57.6117,41,False
+C09_noM11,leave_one_out,Full - M11,all,16.5088,0.6951,0.3361,22.0424,45.6271,17,False
+D01_lama_only,key_combo,LaMa only,all,14.8941,0.6851,0.336,21.9788,45.1812,17,False
+D02_lama_ocr,key_combo,LaMa + OCR,all,14.8941,0.6851,0.336,21.9788,45.1812,17,False
+D03_lama_mask_blend,key_combo,LaMa + Mask + Blend,all,16.8941,0.7295,0.2842,22.0218,48.1159,17,False
+D04_sd15_full_nolama,key_combo,SD1.5 Full (no LaMa),all,22.1359,0.8264,0.1535,19.8627,57.3739,41,False
+D05_two_stage_only,key_combo,Two-Stage only,all,16.8242,0.6411,0.216,18.8604,48.8425,24,False
+D06_color_match_only,key_combo,ColorMatch only,all,13.9071,0.5459,0.3178,24.0294,45.1412,17,False
+D07_mask_chain,key_combo,Mask Chain (M1+M3+M5),all,16.0437,0.6339,0.2405,20.9954,48.6641,41,False
+D08_post_chain,key_combo,Post Chain (M4+M9),all,16.5553,0.7156,0.2517,24.3418,50.1365,17,False

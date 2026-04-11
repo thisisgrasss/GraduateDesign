@@ -63,7 +63,7 @@ class InpaintModel:
         image_np = np.array(image_pil)
         predictor.set_image(image_np)
 
-        H, W = image_np.shape[:2]
+        H, W = image_pil.size[1], image_pil.size[0]
         boxes_filt = boxes_filt.cpu()
 
         for i in range(boxes_filt.size(0)):
@@ -110,7 +110,12 @@ class InpaintModel:
             use_mat=True,
             use_two_stage=True,
             use_dsp_mask=True,
+
+            mask_erode_ksize=9,
+            mask_erode_iters=1,
+            mask_smooth_sigma=15,
         )
+
 
         print("✅ 修复完成")
 

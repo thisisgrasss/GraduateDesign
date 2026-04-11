@@ -1,0 +1,39 @@
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+/root/miniconda3/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/root/miniconda3/lib/python3.12/site-packages/iopaint/model/ldm.py:279: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast()
+✓ 使用本地 BERT: /root/autodl-tmp/Grounded_sam/bert-base-uncased
+
+✓ IOPaint (LaMa) 可用
+✓ 形态学文字预处理就绪（无需 PaddleOCR）
+
+
+================================================================================
+  消融实验启动  20260411_161551
+  实验组: ['incremental', 'leave_one_out', 'key_combo']
+  任务过滤: all
+  输出目录: ablation_outputs/ablation_20260411_161551
+================================================================================
+
+加载 Grounding DINO...
+Traceback (most recent call last):
+  File "/root/autodl-tmp/Grounded_sam/Grounded-Segment-Anything/ablation_study.py", line 1552, in <module>
+    run_ablation(
+  File "/root/autodl-tmp/Grounded_sam/Grounded-Segment-Anything/ablation_study.py", line 1282, in run_ablation
+    dino_model = load_model(PATH_CONFIG["grounding_dino_config"],
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/Grounded_sam/Grounded-Segment-Anything/grounded_sam_inpainting.py", line 51, in load_model
+    args = SLConfig.fromfile(model_config_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/Grounded_sam/Grounded-Segment-Anything/GroundingDINO/groundingdino/util/slconfig.py", line 185, in fromfile
+    cfg_dict, cfg_text = SLConfig._file2dict(filename)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/Grounded_sam/Grounded-Segment-Anything/GroundingDINO/groundingdino/util/slconfig.py", line 79, in _file2dict
+    check_file_exist(filename)
+  File "/root/autodl-tmp/Grounded_sam/Grounded-Segment-Anything/GroundingDINO/groundingdino/util/slconfig.py", line 23, in check_file_exist
+    raise FileNotFoundError(msg_tmpl.format(filename))
+FileNotFoundError: file "/root/autodl-tmp/Grounded_sam/Grounded-Segment-Anything/GroundingDINO/groundingdino/config/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py" does not exist
