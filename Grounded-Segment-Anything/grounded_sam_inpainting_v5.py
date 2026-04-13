@@ -924,7 +924,7 @@ def run_single_test(
     evaluator=None,
     box_threshold=0.3,
     text_threshold=0.25,
-    inpaint_mode="first",
+    inpaint_mode="merge",
     nms_iou_threshold=0.5,
     inpaint_steps=50,
     inpaint_guidance_scale=7.5,
@@ -947,7 +947,7 @@ def run_single_test(
     dsp_bilateral_sigma=75,
     dsp_unsharp_strength=0.5,
     # 新增D（v2）：拉普拉斯金字塔融合参数
-    use_lap_blend=True,
+    use_lap_blend=False,
     lap_blend_levels=6,
     # ✅ 改进1（v3）：凸包填充开关
     use_convex_hull=False,

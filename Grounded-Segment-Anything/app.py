@@ -15,7 +15,7 @@ def detect_fn(image, det_prompt):
 
     if image is None:
         print("❌ 没有输入图片")
-        return None, None
+        return None, None  # ✅ 两个值
 
     try:
         input_path = "temp_input.jpg"
@@ -23,11 +23,11 @@ def detect_fn(image, det_prompt):
 
         mask = model.get_mask(input_path, det_prompt)
 
-        return mask
+        return image, mask  # ✅ 修复：返回 (原图, mask) 两个值，而不是只返回 mask
 
     except Exception as e:
         print("❌ detect 错误:", e)
-        return None, None
+        return None, None  # ✅ 两个值
 
 
 # ===== Step2: 修复 =====
