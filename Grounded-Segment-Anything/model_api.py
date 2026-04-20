@@ -126,7 +126,7 @@ import numpy as np
 import os
 from PIL import Image, ImageFilter
 
-from grounded_sam_inpainting_v4_final import (
+from grounded_sam_inpainting_v5 import (
     load_model,
     run_single_test,
     load_image,
